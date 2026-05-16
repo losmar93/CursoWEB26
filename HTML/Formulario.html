@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | Seccion 3</title>
+</head>
+<body>
+    <!--Formulario //|\\-->
+    <!---REGRESAR-->
+    <nav>
+<ol>
+    <li>
+        <a href="../index.html">Regresar</a>
+    </li>
+</ol>
+    </nav>
+
+    <!---CONTENIDODE LA PAGINA DEL FORMULARIO-->
+    <main>
+        <section> <!-- esta es una etiqueta semantica-->
+            <form>
+                <div>
+                <h2>Input general</h2>
+                <input>
+                </div>
+
+                <div>
+                <h2>Tipos de Input</h2>
+                    <div>
+                        <h3>1. Tipo TEXT</h3> 
+                        <p>-->Esta es la opcion por defecto</p>
+                        <label for="nombre">Nombre Completo</label>
+                        <input id="nombre" class="" type="text" placeholder="Ingrese su nombre" value="001" readonly required>
+                    </div>
+                    <div>
+                        <h3>2. Tipo PASSWORD</h3> 
+                        <p>-->Esta es la opcion por defecto</p>
+                        <input type="password" placeholder="Este es un ejemplo" required>
+                    </div>
+                    <div>
+                        <h3>3. Tipo EMAIL</h3> 
+                        <p>-->Ingrese su correo electronico</p>
+                        <input type="email" placeholder="Este es un ejemplo" required>
+                    </div>
+                    <div>
+                        <h3>4. Tipo URL</h3> 
+                        <p>-->Esta es la opcion por defecto</p>
+                        <input type="url" placeholder="Este es un texto de ejemplo" required>
+                    </div>
+                    <div>
+                        <h3>5. Tipo TELEFONO</h3> 
+                        <p>-->Esta es la opcion por defecto</p>
+                        <input type="tel" maxlength="8" minlength="4" pattern="[0-9]{8}" required>
+                    </div>
+                    <div>
+                        <h3>6. Tipo BUSCARDOR</h3> 
+                        <p>-->Esta es la opcion por defecto</p>
+                        <input type="search" maxlength="2" required>
+                    </div>
+                </div>
+<hr>
+<hr>
+<div>
+                <h2>Tipos de Input - Numericos</h2>
+                    <div>
+                        <h3>1. Tipo Number</h3> 
+                        <p>-->Esta es la opcion por defecto</p>
+                        <label for="EDAD">EDAD</label>
+                        <input id="EDAD" type="number" placeholder="Texto de ejemplo" step="0">
+                    </div>
+                    <div>
+                        <h3>2. Tipo RANGE</h3> 
+                        <p>-->Esta de 0 a 100</p>
+                        <label for="valorenos"></label>
+                        <input id="valorenos" type="range"value="50" placeholder="Texto de ejemplo" step="0">
+                    </div>
+<hr>
+<hr>
+                <h2>Tipos de Input - Tiempo</h2>
+                    <div>
+                        <h3>1. Tipo DATE</h3> 
+                        <label for="DATE">Fecha de Nacimiento</label>
+                        <input id="DATE" type="date" max="2026-05-16">
+                    </div>
+                     <div>
+                        <h3>2. Tipo TIME</h3> 
+                        <label for="">Hora</label>
+                        <input id="" type="time">
+                    </div>
+                    <div>
+                        <h3>3. Tipo Datetime</h3>
+                        <label for="">Fecha de Nacimiento:</label>
+                        <input id="" type="datetime-local">
+                    </div>
+<hr>
+<hr>
+<div>
+                <h2>Tipos de Input - CHECK</h2>
+                    <div>
+                        <h3>1. Tipo Check box</h3> 
+                        <label for="c4">Opcion 4:</label>
+                        <input id="c4" type="checkbox">
+                        <label for="c3">Opcion 3:</label>
+                        <input id="c3" type="checkbox">
+                        <label for="c2">Opcion 2:</label>
+                        <input id="c2" type="checkbox">
+                        <label for="c1">Opcion 1:</label>
+                        <input id="c1" type="checkbox">
+                    </div>
+
+                    <div>
+                        <h3>2. Tipo Checkbox seleccione uno a la vez</h3> 
+                        <label for="c4">Opcion 4:</label>
+                        <input id="c4" name="grupo1" type="radio">
+                        <label for="c3">Opcion 3:</label>
+                        <input id="c3" name="grupo1" type="radio">
+                        <label for="c2">Opcion 2:</label>
+                        <input id="c2" name="grupo1" type="radio">
+                        <label for="c1">Opcion 1:</label>
+                        <input id="c1" name="grupo1" type="radio">
+                    </div>
+
+                    <div>
+                        <h3>3. Tipo FILE</h3> 
+                        <input type="file">
+                    </div>               
+                </div>
+
+                <br>
+                <br>
+                <br>
+                
+                <button type="submit">Enviar Formulario</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
